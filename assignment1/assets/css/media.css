@@ -1,0 +1,85 @@
+
+ /* mobile */
+@media(max-width:768px){
+
+   .banner>video>source{
+        src: url(assets/media/mobile.mp4);
+    }
+    
+    
+   
+
+
+/* tab */
+@media(min-width : 769px) and (max-width : 1024px){
+    header{
+        background-color: teal;
+    }
+    header>nav>ul{
+        float :none;
+    }
+    header>nav{
+        padding: 20px;
+        text-align: center;
+    }
+    .banner{
+        background-color: skyblue;
+    }
+
+
+}
+
+/* LAPTOP */
+@media(min-width : 1025px) and (max-width : )
+[10:24 am, 21/07/2023] Varuni: /* mobile */
+@media(max-width:768px){
+    header{
+        background-color: green;
+    }
+    
+    
+    header>nav>ul>li{
+        display: block;
+    }
+    header>nav>ul{
+        
+        float: none;
+    }
+    header>nav{
+        padding: 20px;
+        text-align: center;
+
+    }
+    header>nav>ul>li:hover{
+        background-color: red;
+    }
+
+   .banner>video>source{
+        src: url(assets/desktop.mp4);
+    }
+    
+} 
+   
+
+
+/* tab */
+@media(min-width : 769px) and (max-width : 1024px){
+    header{
+        background-color: teal;
+    }
+    header>nav>ul{
+        float :none;
+    }
+    header>nav{
+        padding: 20px;
+        text-align: center;
+    }
+    .banner{
+        background-color: skyblue;
+    }
+    .banner>video>source{
+        src:url(assets/tab.mp4)
+    }
+
+
+}

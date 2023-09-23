@@ -1,0 +1,26 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+/*p1.html*/
+.container{
+    background-color: lightgray;
+    padding: 20px;
+
+    display:grid;
+    gap:20px;
+
+    /*grid-template-rows: 20px;*/
+    grid-auto-rows: auto;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+}
+.container>.item{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,rgba(60,64,67,0.15)0px 2px 6px 2px;
+}

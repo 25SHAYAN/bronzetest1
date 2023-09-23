@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: rgb(128, 128, 128);
+}
+header>nav>img{
+    height: 90px;
+    width: 150px;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover a{
+    color: rgb(73, 10, 231)
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    height: 400px;
+    padding: 20px;
+}
+.banner>div>h1{
+    font-size: 60px;
+    text-shadow: -3px -3px 3px #000,3px 3px 3px #000;
+    position: relative;
+}
+.banner>div{
+    background-color: rgba(0, 0,0,0.3);
+    padding: 30px;
+    line-height: 2;
+    display: inline-block;
+    box-shadow: -3px -3px 3px #000,3px 3px 3px #000;
+}
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.banner>video{
+    background-size: cover;
+    width: 100%;
+}

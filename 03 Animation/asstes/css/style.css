@@ -1,0 +1,23 @@
+/*p1*/
+.commonanimation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.commonanimation>h1{
+    text-align: center;
+    color: white;
+    font-size:40px ;
+    text-shadow: 3px 3px 3px black;
+}
+.animation1{
+    background-color: black;
+    /*animation: bepractical;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;*/
+    animation: bepractical 10s infinite;
+}
+@keyframes bepractical{
+    from()
+}

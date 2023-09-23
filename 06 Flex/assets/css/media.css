@@ -1,0 +1,15 @@
+/*MOBILE VERSION*/
+@media(max-width:768px){
+    .conatiner{
+        flex-flow: column;
+    }
+     .container>.item{
+        width: 100%;
+     }
+}
+/*table version*/
+@media(min-width:798px) and (max-width:1200px){
+    .container>.item{
+        width: 44%;
+    }
+}

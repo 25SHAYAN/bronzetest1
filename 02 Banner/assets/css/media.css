@@ -1,0 +1,29 @@
+/*p1*/
+/*mobile*/
+@media(max-width:768px){
+    header{
+        background-color: aqua;
+    }
+    header>nav>ul>li{
+         display: block;
+    }
+    header>nav>ul{
+   
+        float: none;
+    }
+    header>nav{
+        padding: 20px;
+    }
+ 
+}
+/*tab*/
+@media(min-width:769px) and (max-width:1024px){
+    header{
+        background-color: rgb(216, 12, 46);
+    }
+}
+@media(min-width:300px) and (max-width:500px){
+    header{
+        background-color: rgb(17, 17, 20);
+    }
+}
